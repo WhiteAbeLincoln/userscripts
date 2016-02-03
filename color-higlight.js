@@ -19,8 +19,7 @@ var theElems = document.evaluate(
                 './/text()[normalize-space() != "" '
                 + 'and not(ancestor::style) '
                 + 'and not(ancestor::script) '
-                + 'and not(ancestor::textarea) '
-                + 'and not(ancestor::pre)]',
+                + 'and not(ancestor::textarea)]',
                 document.body, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
 
 if (!theElems.snapshotItem(0)) { return; }      // end execution if no elements found
