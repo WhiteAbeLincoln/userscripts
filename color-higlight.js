@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name    Color Highlighter
 // @description Highlights css compatible colors (rgb and hex) on the webpage
+// @include /^https?://.*/
 // @namespace   whiteabelincoln
 // @author      whiteabelincoln
 // @version     1.0
